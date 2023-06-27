@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4648307081373844369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4648307081373844382}
+  - component: {fileID: 4648307081373844383}
+  - component: {fileID: 4648307081373844380}
+  m_Layer: 0
+  m_Name: Obstacle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4648307081373844382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648307081373844369}
+  m_LocalRotation: {x: 0, y: 0.022582633, z: 0, w: 0.999745}
+  m_LocalPosition: {x: 0.74923503, y: 0.7505882, z: 0.016255155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 2.588, z: 0}
+--- !u!114 &4648307081373844383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648307081373844369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327a34e99d9556567b6be5126d36ddbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockPrefab: {fileID: 1618683979995261940, guid: b26a134e9388d8063ae21a80851797ac,
+    type: 3}
+  blockSmallPrefab: {fileID: 1299285409180477629, guid: 7ed22218f78fedb2b93943c652c6b5e7,
+    type: 3}
+  blockSmallPrefabEnd: {fileID: 4222936894064085657, guid: badfa9181f721a6948bf7dd3798eeace,
+    type: 3}
+  rocks:
+  - {fileID: 22795141309754093, guid: 8382266495afb68dca69a37cb1d9b4f6, type: 3}
+  - {fileID: 3865043254606148070, guid: ef297d3a7f06cc4f68507a1b140c0843, type: 3}
+  - {fileID: 1865694769587052836, guid: cb19154a037f72045a06ab72b4a84b65, type: 3}
+  - {fileID: 4258412033673128626, guid: 7c2e731a430d2a3e0a2973c89263b797, type: 3}
+  - {fileID: 5800312542163941079, guid: b79f1ea68f93226168bdf7edc2bfeb6c, type: 3}
+  - {fileID: 4141468447894969852, guid: 96bbde1f7e9905db88c1dcfc42304456, type: 3}
+--- !u!54 &4648307081373844380
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648307081373844369}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0

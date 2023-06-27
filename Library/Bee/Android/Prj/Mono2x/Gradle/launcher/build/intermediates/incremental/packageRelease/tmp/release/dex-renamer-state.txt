@@ -1,0 +1,4 @@
+#Sun Mar 26 16:31:37 CEST 2023
+base.0=/home/pia/Unity_Projects/Bachelor Thesis Game/Bachelor-Thesis/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

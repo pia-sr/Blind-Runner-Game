@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="31"
+9-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-52
+12-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-49
+13    <uses-feature
+13-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-63
+15        android:required="false" />
+15-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-65
+17-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:20-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-77
+18-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:20-74
+19
+20    <uses-feature
+20-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-88
+21        android:name="android.hardware.touchscreen"
+21-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-60
+22        android:required="false" />
+22-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:61-85
+23    <uses-feature
+23-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:17-71
+25        android:required="false" />
+25-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:72-96
+26    <uses-feature
+26-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:17-80
+28        android:required="false" />
+28-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:81-105
+29
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:3-75
+30-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:20-72
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:3-64
+31-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:20-61
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:3-66
+32-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:20-63
+33    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+33-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:3-72
+33-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:20-69
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:37:3-79
+34-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:37:20-76
+35    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+35-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:3-77
+35-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:20-74
+36    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+36-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:3-74
+36-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:20-71
+37    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+37-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:3-71
+37-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:20-68
+38
+39    <application android:extractNativeLibs="true" >
+39-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-25:17
+39-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+40        <activity
+40-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-12:16
+41            android:name="com.unity3d.player.UnityPlayerActivity"
+41-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+42            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+42-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
+43            android:exported="true"
+43-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:433-456
+44            android:hardwareAccelerated="false"
+44-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
+45            android:launchMode="singleTask"
+45-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
+46            android:resizeableActivity="false"
+46-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
+47            android:screenOrientation="portrait"
+47-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
+48            android:theme="@style/UnityThemeSelector" >
+48-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+49            <intent-filter>
+49-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+50                <action android:name="android.intent.action.TTS_SERVICE" />
+50-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-68
+50-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-65
+51                <action android:name="android.intent.action.MAIN" />
+51-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-61
+51-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-58
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-69
+53-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-66
+54            </intent-filter>
+55
+56            <meta-data
+56-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+57                android:name="unityplayer.UnityActivity"
+57-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+58                android:value="true" />
+58-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+59            <meta-data
+59-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-78
+60                android:name="android.notch_support"
+60-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-54
+61                android:value="true" />
+61-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+62        </activity>
+63
+64        <meta-data
+64-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-69
+65            android:name="unity.splash-mode"
+65-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-48
+66            android:value="0" />
+66-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:49-66
+67        <meta-data
+67-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-74
+68            android:name="unity.splash-enable"
+68-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-50
+69            android:value="True" />
+69-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:51-71
+70        <meta-data
+70-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-78
+71            android:name="unity.launch-fullscreen"
+71-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-54
+72            android:value="True" />
+72-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:55-75
+73        <meta-data
+73-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-84
+74            android:name="unity.allow-resizable-window"
+74-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-59
+75            android:value="False" />
+75-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:60-81
+76        <meta-data
+76-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-81
+77            android:name="notch.config"
+77-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-43
+78            android:value="portrait|landscape" />
+78-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:44-78
+79
+80        <receiver
+80-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-113
+81            android:name="com.unity.androidnotifications.UnityNotificationManager"
+81-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:15-85
+82            android:exported="false" />
+82-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:86-110
+83        <receiver
+83-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-23:16
+84            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+84-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:15-99
+85            android:enabled="false"
+85-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:100-123
+86            android:exported="false" >
+86-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:124-148
+87            <intent-filter>
+87-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:7-22:23
+88                <action android:name="android.intent.action.BOOT_COMPLETED" />
+88-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-71
+88-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-68
+89            </intent-filter>
+90        </receiver>
+91
+92        <meta-data
+92-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-99
+93            android:name="com.unity.androidnotifications.exact_scheduling"
+93-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:16-78
+94            android:value="0" />
+94-->/home/pia/Documents/GitHub/Bachelor-Thesis/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:79-96
+95    </application>
+96
+97</manifest>
