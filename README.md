@@ -3,8 +3,15 @@
 
 **This runner game for Android was created for the bachelor thesis with the topic: Accessibility in Video Games: Designing and Developing a Concept for Accessibility in Mobile Games for Blind and Visually Impaired People**
 
+[Bachelor Thesis](https://github.com/pia-sr/Blind-Runner-Game/blob/main/Bachelor_Thesis_Schroeter.pdf)
+
 ## Premise
 In this game, the player is an armadillo that runs through a foggy forest at night. The armadillo can move on three lanes and needs to evade obstacles. The score in the game depends on the collected lights by the armadillo.
+<p align="center">
+   <img src="https://github.com/pia-sr/Blind-Runner-Game/blob/main/Screenshot_20230613-151716.png" width=45% height=45%/>
+  
+   <img src="https://github.com/pia-sr/Blind-Runner-Game/blob/main/Screenshot_20230611-162822.png" width=45% height=45%/>
+<p/>
 
 ## Accessibility Features
 With the help of these accessibility features, people with visual impairments can also play the game. These accessibility features are [phone habtics](https://developer.android.com/reference/android/os/Vibrator), [text-to-speech implementation](https://developer.android.com/reference/android/speech/tts/TextToSpeech) and the [feelSpace naviBelt](https://github.com/feelSpace/FSLib-Android/tree/master). The [feelSpace naviBelt](https://feelspace.de/) is an aid device that helps people with visual impairments to orientate themselves and to navigate.
